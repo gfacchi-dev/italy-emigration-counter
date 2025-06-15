@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1a1a1a; /* Match App.css dark background */
+  color: #f0f0f0; /* Default light text color */
+}
+
+/* Ensure links also have a visible color if any are added later */
+a {
+  color: #e74c3c; /* Match h1 color for impact */
+}
+
+a:hover {
+  color: #c0392b; /* Darker red on hover */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,92 @@
+.explanation-section {
+  text-align: left;
+  margin-top: 20px; /* Reduced from 30px */
+  padding: 10px;    /* Reduced from 15px */
+  border-top: 2px solid #e74c3c;
+  max-width: 700px; /* Reduced from 800px */
+  width: 95%;       /* Increased from 90% to use space */
+  background-color: #222222; /* Slightly different dark shade */
+  border-radius: 8px;
+  box-sizing: border-box; /* Ensure padding doesn't expand overall width */
+}
+
+.explanation-section h2 {
+  font-size: 1.4rem; /* Reduced */
+  color: #e74c3c;
+  text-align: center;
+  margin-bottom: 15px; /* Reduced */
+  text-transform: uppercase;
+}
+
+.explanation-section h3 {
+  font-size: 1.1rem; /* Reduced */
+  color: #f39c12;
+  margin-top: 15px;    /* Reduced */
+  margin-bottom: 8px;  /* Reduced */
+}
+
+.explanation-section p,
+.explanation-section ul {
+  font-size: 0.8rem; /* Reduced */
+  line-height: 1.5;   /* Adjusted */
+  color: #cccccc;
+  margin-bottom: 10px; /* Reduced */
+}
+
+.explanation-section ul {
+  list-style-position: inside;
+  padding-left: 0; /* Reset default padding */
+}
+
+.explanation-section ul li {
+  margin-bottom: 4px; /* Reduced */
+}
+
+.explanation-section strong {
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+.explanation-section .total-value {
+  font-weight: bold;
+  color: #f0f0f0;
+}
+
+.explanation-section .formula-box,
+.explanation-section .calculation-box {
+  background-color: #2f2f2f; /* Darker shade for contrast */
+  padding: 8px;
+  margin: 10px 0;
+  border-left: 3px solid #f39c12;
+  font-family: 'Consolas', 'Courier New', Courier, monospace;
+  font-size: 0.8rem; /* Reduced */
+  border-radius: 4px;
+}
+
+.explanation-section .formula-display {
+  padding: 8px;
+  margin-top: 5px;
+  background-color: #1c1c1c;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.explanation-section .summary-table {
+  margin-top: 15px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.explanation-section .summary-table th,
+.explanation-section .summary-table td {
+  border: 1px solid #444;
+  padding: 6px; /* Reduced */
+  text-align: left;
+  font-size: 0.75rem; /* Reduced */
+}
+
+.explanation-section .summary-table th {
+  background-color: #333;
+  color: #f39c12;
+  font-weight: bold;
+}

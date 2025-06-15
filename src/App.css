@@ -1,0 +1,34 @@
+.App {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Modern system font stack */
+  text-align: center;
+  padding: 20px 20px; /* Reduced padding */
+  background-color: #1a1a1a; /* Dark background */
+  color: #f0f0f0; /* Light text color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; /* Distribute content vertically */
+}
+
+h1 {
+  font-size: 3.2rem; /* Slightly reduced */
+  margin-bottom: 30px; /* Reduced margin */
+  color: #e74c3c; /* Stark red */
+  text-transform: uppercase; /* More impactful */
+  letter-spacing: 2px;
+  border-bottom: 3px solid #e74c3c;
+  padding-bottom: 10px;
+  display: inline-block; /* To make border fit content */
+}
+
+h2 {
+  font-size: 1.8rem; /* Reduced */
+  color: #dddddd; /* Lighter for contrast */
+  margin-bottom: 5px; /* Reduced margin */
+}
+
+/* Specific class for the economic loss counter's value if we want to target it */
+.economic-loss-value {
+  color: #f39c12; /* Warning orange/yellow */
+}
